@@ -58,8 +58,9 @@ export default function ChanList (){
                         return (
                                 <ChanCard
                                     key={Category.name}
+                                    isNew={Category.isNew}
                                     img={Category.img}
-                                    name={Category.name}
+                                    title={Category.title}
                                     group={Category.group}
                                     viewers={Category.viewers}
                                     hashtag_1={Category.hashtag_1}

@@ -7,7 +7,7 @@ function App() {
   return (
     <section className="bg-gray-950">
       <Navbar/>
-      <div className="grid grid-cols-[250px_auto]">
+      <div className="grid grid-cols-[240px_auto] min-h-[calc(100vh-3rem)]">
         <UserChannels/>
         <ChanList/>  
       </div>
