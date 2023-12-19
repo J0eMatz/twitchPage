@@ -7,7 +7,7 @@ function App() {
   return (
     <section className="bg-gray-950">
       <Navbar/>
-      <div className="inline-flex">
+      <div className="grid grid-cols-[250px_auto]">
         <UserChannels/>
         <ChanList/>  
       </div>
